@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.entry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+     /* Set container height to fill viewport */
+}
+#grid{
+    width: 430px;
+    height: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    
+}
+#grid img {
+    margin: 0 2px 0 2px; /* Adjust the spacing as needed */
+}
